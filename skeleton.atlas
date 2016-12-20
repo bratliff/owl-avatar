@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+owl_turnaround/reduced/1owl_front
+  rotate: false
+  xy: 391, 328
+  size: 200, 334
+  orig: 200, 334
+  offset: 0, 0
+  index: -1
+owl_turnaround/reduced/2owl_threequarter
+  rotate: false
+  xy: 2, 2
+  size: 334, 324
+  orig: 334, 324
+  offset: 0, 0
+  index: -1
+owl_turnaround/reduced/3owl_side
+  rotate: false
+  xy: 2, 664
+  size: 387, 334
+  orig: 387, 334
+  offset: 0, 0
+  index: -1
+owl_turnaround/reduced/4owl_back
+  rotate: false
+  xy: 738, 664
+  size: 200, 334
+  orig: 200, 334
+  offset: 0, 0
+  index: -1
+owl_turnaround/reduced/5owl_side
+  rotate: false
+  xy: 2, 328
+  size: 387, 334
+  orig: 387, 334
+  offset: 0, 0
+  index: -1
+owl_turnaround/reduced/6owl_threequarter
+  rotate: false
+  xy: 391, 664
+  size: 345, 334
+  orig: 345, 334
+  offset: 0, 0
+  index: -1

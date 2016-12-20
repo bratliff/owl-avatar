@@ -1,0 +1,76 @@
+{
+"skeleton": { "hash": "ZvBthjDgEnhmFc3ODe7BA5BU11k", "spine": "3.5.44", "width": 1815.91, "height": 3032.57 },
+"bones": [
+	{ "name": "root", "scaleX": 90.796, "scaleY": 90.796 }
+],
+"slots": [
+	{ "name": "owl_turnaround", "bone": "root", "attachment": "owl_turnaround/reduced/1owl_front" }
+],
+"skins": {
+	"default": {
+		"owl_turnaround": {
+			"owl_turnaround/reduced/1owl_front": { "x": -0.5, "y": 16.85, "scaleX": 0.1, "scaleY": 0.1, "width": 200, "height": 334 },
+			"owl_turnaround/reduced/2owl_threequarter": { "x": -0.69, "y": 16.16, "scaleX": 0.1, "scaleY": 0.1, "width": 334, "height": 324 },
+			"owl_turnaround/reduced/3owl_side": { "x": -0.1, "y": 16.36, "scaleX": 0.1, "scaleY": 0.1, "width": 387, "height": 334 },
+			"owl_turnaround/reduced/4owl_back": { "x": 0.5, "y": 16.55, "scaleX": 0.1, "scaleY": 0.1, "width": 200, "height": 334 },
+			"owl_turnaround/reduced/5owl_side": { "x": 2.18, "y": 16.16, "scaleX": 0.099, "scaleY": 0.099, "width": 387, "height": 334 },
+			"owl_turnaround/reduced/6owl_threequarter": { "x": 0.1, "y": 15.96, "scaleX": 0.1, "scaleY": 0.1, "width": 345, "height": 334 }
+		}
+	}
+},
+"animations": {
+	"turnaroud": {
+		"slots": {
+			"owl_turnaround": {
+				"attachment": [
+					{ "time": 0.1, "name": "owl_turnaround/reduced/2owl_threequarter" },
+					{ "time": 0.2, "name": "owl_turnaround/reduced/3owl_side" },
+					{ "time": 0.3, "name": "owl_turnaround/reduced/4owl_back" },
+					{ "time": 0.4, "name": "owl_turnaround/reduced/5owl_side" },
+					{ "time": 0.5, "name": "owl_turnaround/reduced/6owl_threequarter" },
+					{ "time": 0.6, "name": "owl_turnaround/reduced/1owl_front" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0.1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.1, "x": 117, "y": -18 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0.1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"turnback": {
+		"slots": {
+			"owl_turnaround": {
+				"attachment": [
+					{ "time": 0.0667, "name": "owl_turnaround/reduced/2owl_threequarter" },
+					{ "time": 0.1667, "name": "owl_turnaround/reduced/3owl_side" },
+					{ "time": 0.2667, "name": "owl_turnaround/reduced/4owl_back" }
+				]
+			}
+		}
+	},
+	"turnfront": {
+		"slots": {
+			"owl_turnaround": {
+				"attachment": [
+					{ "time": 0, "name": "owl_turnaround/reduced/4owl_back" },
+					{ "time": 0.0667, "name": "owl_turnaround/reduced/5owl_side" },
+					{ "time": 0.1333, "name": "owl_turnaround/reduced/6owl_threequarter" },
+					{ "time": 0.2, "name": "owl_turnaround/reduced/1owl_front" }
+				]
+			}
+		}
+	}
+}
+}

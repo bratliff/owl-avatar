@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Owl Turnaround</title>
+</head>
+<style>
+.container {
+    text-align:center;
+}
+#spine-widget {
+    height:300px;
+}
+.blur {
+    filter:blur(4px);
+}
+</style>
+<body>
+
+<div class="container">
+<div id="spine-widget">
+</div>
+<button class="turnback">Turn Back</button>
+<button class="turnfront">Turn Front</button>
+<button class="spin">Spin</button>
+<button class="spin spinblur">Spin w/ Blur</button>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+<script src='js/spine-widget.js'></script>
+<script>
+
+function addHandlers(widget) {
+    var active = false;
+
+    $('.turnback').click(function(){
+        widget.state.setAnimation(0, "turnback", false);
+    });
+    $('.turnfront').click(function(){
+        widget.state.setAnimation(0, "turnfront", false);
+    });
+    $('.spin').click(function(){
+        active = !active;
+
+        if(active) {
+            $(this).html('Stop');
+            widget.state.setAnimation(0, "turnaroud", true);
+            $(this).hasClass('spinblur') ? $('#spine-widget').addClass('blur') : '';
+        } else {
+            $(this).html('Spin');
+            widget.state.setAnimation(0, "turnfront", false);
+             $('#spine-widget').removeClass('blur');
+         }
+
+    });
+}
+
+$(document).ready(function(){
+
+    new spine.SpineWidget("spine-widget", {
+        json: "skeleton.json",
+        atlas: "skeleton.atlas",
+        animation: "turnaroud",
+        alpha:true,
+        backgroundColor: "#00000000",
+        success: function (widget) {
+            widget.state.setAnimation(0, "turnaroud", false);
+            addHandlers(widget);
+        }
+    });
+
+});
+
+</script>
+</body>
+</html>
