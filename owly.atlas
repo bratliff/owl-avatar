@@ -1,0 +1,111 @@
+
+owly.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blink_set/1_left
+  rotate: true
+  xy: 608, 130
+  size: 124, 127
+  orig: 124, 127
+  offset: 0, 0
+  index: -1
+blink_set/1_right
+  rotate: true
+  xy: 406, 2
+  size: 125, 127
+  orig: 125, 127
+  offset: 0, 0
+  index: -1
+blink_set/reduced/2_left
+  rotate: false
+  xy: 2, 2
+  size: 66, 67
+  orig: 66, 67
+  offset: 0, 0
+  index: -1
+blink_set/reduced/2_right
+  rotate: false
+  xy: 535, 59
+  size: 66, 68
+  orig: 66, 68
+  offset: 0, 0
+  index: -1
+blink_set/reduced/3_left
+  rotate: false
+  xy: 893, 186
+  size: 66, 68
+  orig: 66, 68
+  offset: 0, 0
+  index: -1
+blink_set/reduced/3_right
+  rotate: false
+  xy: 70, 2
+  size: 66, 67
+  orig: 66, 67
+  offset: 0, 0
+  index: -1
+blink_set/reduced/4_left
+  rotate: false
+  xy: 138, 2
+  size: 66, 67
+  orig: 66, 67
+  offset: 0, 0
+  index: -1
+blink_set/reduced/4_right
+  rotate: false
+  xy: 893, 117
+  size: 66, 67
+  orig: 66, 67
+  offset: 0, 0
+  index: -1
+body_set/reduced/beak
+  rotate: false
+  xy: 961, 172
+  size: 49, 82
+  orig: 49, 82
+  offset: 0, 0
+  index: -1
+body_set/reduced/beak-fluff
+  rotate: false
+  xy: 204, 74
+  size: 59, 38
+  orig: 59, 38
+  offset: 0, 0
+  index: -1
+body_set/reduced/body
+  rotate: false
+  xy: 2, 71
+  size: 200, 183
+  orig: 200, 183
+  offset: 0, 0
+  index: -1
+body_set/reduced/brows
+  rotate: false
+  xy: 737, 163
+  size: 154, 91
+  orig: 154, 91
+  offset: 0, 0
+  index: -1
+body_set/reduced/btm-beak
+  rotate: true
+  xy: 535, 8
+  size: 49, 82
+  orig: 49, 82
+  offset: 0, 0
+  index: -1
+body_set/reduced/crown
+  rotate: false
+  xy: 406, 129
+  size: 200, 125
+  orig: 200, 125
+  offset: 0, 0
+  index: -1
+body_set/reduced/head
+  rotate: false
+  xy: 204, 114
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1

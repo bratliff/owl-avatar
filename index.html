@@ -24,8 +24,7 @@
 </div>
 <button class="turnback">Turn Back</button>
 <button class="turnfront">Turn Front</button>
-<button class="spin">Spin</button>
-<button class="spin spinblur">Spin w/ Blur</button>
+<button class="right-blink">Blink</button>
 </div>
 
 <script
@@ -45,32 +44,21 @@ function addHandlers(widget) {
     $('.turnfront').click(function(){
         widget.state.setAnimation(0, "turnfront", false);
     });
-    $('.spin').click(function(){
-        active = !active;
-
-        if(active) {
-            $(this).html('Stop');
-            widget.state.setAnimation(0, "turnaroud", true);
-            $(this).hasClass('spinblur') ? $('#spine-widget').addClass('blur') : '';
-        } else {
-            $(this).html('Spin');
-            widget.state.setAnimation(0, "turnfront", false);
-             $('#spine-widget').removeClass('blur');
-         }
-
+    $('.right-blink').click(function(){
+        widget.state.setAnimation(0, "right-blink", false);
     });
 }
 
 $(document).ready(function(){
 
     new spine.SpineWidget("spine-widget", {
-        json: "skeleton.json",
-        atlas: "skeleton.atlas",
-        animation: "turnaroud",
+        json: "owly.json",
+        atlas: "owly.atlas",
+        animation: "right-blink",
         alpha:true,
         backgroundColor: "#00000000",
         success: function (widget) {
-            widget.state.setAnimation(0, "turnaroud", false);
+            widget.state.setAnimation(0, "right-blink", false);
             addHandlers(widget);
         }
     });
