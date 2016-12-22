@@ -1,6 +1,7 @@
 function addHandlers(widget) {
     var active = false;
     var flapping = false;
+    var speaking = false;
 
     $('.btn').click(function(){
 
@@ -21,6 +22,11 @@ function addHandlers(widget) {
                 flapping = !flapping;
                 flapping ? widget.state.setAnimation(0, "flapping", true) : widget.state.setAnimation(0, "resting", true);
                 flapping ? $(this).html("Stop Flapping") : $(this).html("Flapping");
+            break;
+            case 'speaking':
+            speaking = !speaking;
+            speaking ? widget.state.setAnimation(0, "talking", true) : widget.state.setAnimation(0, "resting", true);
+            speaking ? $(this).html("Stop Speaking") : $(this).html("Speak");
             break;
         }
     });
