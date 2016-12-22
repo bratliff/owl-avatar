@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Owl Turnaround</title>
+    <title>Owl Avatar</title>
 </head>
 <style>
 .container {
@@ -22,9 +22,11 @@
 <div class="container">
 <div id="spine-widget">
 </div>
-<button class="turnback">Turn Back</button>
-<button class="turnfront">Turn Front</button>
-<button class="right-blink">Blink</button>
+<button data-action="right-blink" class="btn">Blink</button>
+<button data-action="scratch" class="btn">Scratch</button>
+<button data-action="wingsout" class="btn">Wings Out</button>
+<button data-action="wingsin" class="btn">Wings In</button>
+<button data-action="flapping" class="btn">Flapping</button>
 </div>
 
 <script
@@ -33,38 +35,6 @@
   crossorigin="anonymous"></script>
 
 <script src='js/spine-widget.js'></script>
-<script>
-
-function addHandlers(widget) {
-    var active = false;
-
-    $('.turnback').click(function(){
-        widget.state.setAnimation(0, "turnback", false);
-    });
-    $('.turnfront').click(function(){
-        widget.state.setAnimation(0, "turnfront", false);
-    });
-    $('.right-blink').click(function(){
-        widget.state.setAnimation(0, "right-blink", false);
-    });
-}
-
-$(document).ready(function(){
-
-    new spine.SpineWidget("spine-widget", {
-        json: "owly.json",
-        atlas: "owly.atlas",
-        animation: "right-blink",
-        alpha:true,
-        backgroundColor: "#00000000",
-        success: function (widget) {
-            widget.state.setAnimation(0, "right-blink", false);
-            addHandlers(widget);
-        }
-    });
-
-});
-
-</script>
+<script src='js/main.js'></script>
 </body>
 </html>

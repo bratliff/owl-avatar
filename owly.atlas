@@ -1,111 +1,181 @@
 
 owly.png
-size: 1024,256
+size: 1024,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 blink_set/1_left
-  rotate: true
-  xy: 608, 130
+  rotate: false
+  xy: 659, 147
   size: 124, 127
   orig: 124, 127
   offset: 0, 0
   index: -1
 blink_set/1_right
-  rotate: true
-  xy: 406, 2
+  rotate: false
+  xy: 532, 147
   size: 125, 127
   orig: 125, 127
   offset: 0, 0
   index: -1
 blink_set/reduced/2_left
   rotate: false
-  xy: 2, 2
+  xy: 743, 78
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 blink_set/reduced/2_right
-  rotate: false
-  xy: 535, 59
+  rotate: true
+  xy: 673, 79
   size: 66, 68
   orig: 66, 68
   offset: 0, 0
   index: -1
 blink_set/reduced/3_left
   rotate: false
-  xy: 893, 186
+  xy: 941, 199
   size: 66, 68
   orig: 66, 68
   offset: 0, 0
   index: -1
 blink_set/reduced/3_right
   rotate: false
-  xy: 70, 2
+  xy: 811, 107
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 blink_set/reduced/4_left
   rotate: false
-  xy: 138, 2
+  xy: 879, 107
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 blink_set/reduced/4_right
   rotate: false
-  xy: 893, 117
+  xy: 947, 130
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
-body_set/reduced/beak
+body_set/1_tail
   rotate: false
-  xy: 961, 172
+  xy: 300, 257
+  size: 210, 115
+  orig: 210, 115
+  offset: 0, 0
+  index: -1
+body_set/2_lowwing
+  rotate: false
+  xy: 566, 419
+  size: 277, 89
+  orig: 277, 89
+  offset: 0, 0
+  index: -1
+body_set/reduced/beak
+  rotate: true
+  xy: 314, 4
   size: 49, 82
   orig: 49, 82
   offset: 0, 0
   index: -1
 body_set/reduced/beak-fluff
-  rotate: false
-  xy: 204, 74
+  rotate: true
+  xy: 250, 296
   size: 59, 38
   orig: 59, 38
   offset: 0, 0
   index: -1
 body_set/reduced/body
   rotate: false
-  xy: 2, 71
+  xy: 2, 2
   size: 200, 183
   orig: 200, 183
   offset: 0, 0
   index: -1
 body_set/reduced/brows
   rotate: false
-  xy: 737, 163
+  xy: 785, 176
   size: 154, 91
   orig: 154, 91
   offset: 0, 0
   index: -1
 body_set/reduced/btm-beak
-  rotate: true
-  xy: 535, 8
+  rotate: false
+  xy: 512, 290
   size: 49, 82
   orig: 49, 82
   offset: 0, 0
   index: -1
 body_set/reduced/crown
-  rotate: false
-  xy: 406, 129
+  rotate: true
+  xy: 314, 55
   size: 200, 125
   orig: 200, 125
   offset: 0, 0
   index: -1
 body_set/reduced/head
   rotate: false
-  xy: 204, 114
+  xy: 792, 269
   size: 200, 140
   orig: 200, 140
+  offset: 0, 0
+  index: -1
+body_set/reduced/lt-wing
+  rotate: true
+  xy: 532, 90
+  size: 55, 139
+  orig: 55, 139
+  offset: 0, 0
+  index: -1
+body_set/reduced/rt-wing
+  rotate: true
+  xy: 845, 411
+  size: 97, 157
+  orig: 97, 157
+  offset: 0, 0
+  index: -1
+body_set/wing set/reduced/left-wing-cocked
+  rotate: false
+  xy: 441, 66
+  size: 89, 189
+  orig: 89, 189
+  offset: 0, 0
+  index: -1
+body_set/wing set/reduced/left-wing-flared
+  rotate: false
+  xy: 2, 187
+  size: 246, 168
+  orig: 246, 168
+  offset: 0, 0
+  index: -1
+body_set/wing set/reduced/left-wing-spread
+  rotate: false
+  xy: 300, 374
+  size: 264, 134
+  orig: 264, 134
+  offset: 0, 0
+  index: -1
+body_set/wing set/reduced/right-wing-cocked
+  rotate: false
+  xy: 204, 2
+  size: 108, 183
+  orig: 108, 183
+  offset: 0, 0
+  index: -1
+body_set/wing set/reduced/right-wing-flared
+  rotate: false
+  xy: 566, 276
+  size: 224, 141
+  orig: 224, 141
+  offset: 0, 0
+  index: -1
+body_set/wing set/reduced/rign-wing-spread
+  rotate: false
+  xy: 2, 357
+  size: 296, 151
+  orig: 296, 151
   offset: 0, 0
   index: -1
