@@ -214,14 +214,14 @@ declare module spine {
 		trackEntryPool: Pool<TrackEntry>;
 		constructor(data: AnimationStateData);
 		update(delta: number): void;
-		updateMixingFrom(entry: TrackEntry, delta: number, canEnd: boolean): void;
+		updateMixingFrom(entry: TrackEntry, delta: number): void;
 		apply(skeleton: Skeleton): void;
 		applyMixingFrom(entry: TrackEntry, skeleton: Skeleton): number;
 		applyRotateTimeline(timeline: Timeline, skeleton: Skeleton, time: number, alpha: number, setupPose: boolean, timelinesRotation: Array<number>, i: number, firstFrame: boolean): void;
 		queueEvents(entry: TrackEntry, animationTime: number): void;
 		clearTracks(): void;
 		clearTrack(trackIndex: number): void;
-		setCurrent(index: number, current: TrackEntry): void;
+		setCurrent(index: number, current: TrackEntry, interrupt: boolean): void;
 		setAnimation(trackIndex: number, animationName: string, loop: boolean): TrackEntry;
 		setAnimationWith(trackIndex: number, animation: Animation, loop: boolean): TrackEntry;
 		addAnimation(trackIndex: number, animationName: string, loop: boolean, delay: number): TrackEntry;
@@ -1473,6 +1473,7 @@ declare module spine {
 		atlas: string;
 		animation: string;
 		imagesPath: string;
+		atlasPages: string[];
 		skin: string;
 		loop: boolean;
 		scale: number;

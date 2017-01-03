@@ -1,7 +1,8 @@
 function addHandlers(widget) {
-    var active = false;
-    var flapping = false;
-    var speaking = false;
+    var active = false,
+        flapping = false,
+        speaking = false,
+        walking = false;
 
     $('.btn').click(function(){
 
@@ -24,9 +25,23 @@ function addHandlers(widget) {
                 flapping ? $(this).html("Stop Flapping") : $(this).html("Flapping");
             break;
             case 'speaking':
-            speaking = !speaking;
-            speaking ? widget.state.setAnimation(0, "talking", true) : widget.state.setAnimation(0, "resting", true);
-            speaking ? $(this).html("Stop Speaking") : $(this).html("Speak");
+                speaking = !speaking;
+                speaking ? widget.state.setAnimation(0, "talking", true) : widget.state.setAnimation(0, "resting", true);
+                speaking ? $(this).html("Stop Speaking") : $(this).html("Speak");
+            break;
+            case 'squawk':
+                widget.state.setAnimation(0, "squawk", false);
+            break;
+            case 'walkright':
+                walking = !walking;
+                walking ? widget.state.setAnimation(0, "walkright", true) : widget.state.setAnimation(0, "resting", true);
+                walking ? $(this).html("Stop Walking") : $(this).html("Side Walk");
+            break;
+            case 'askance':
+                widget.state.setAnimation(0, "askance", false);
+            break;
+            case 'sitting':
+                widget.state.setAnimation(0, "sitting", false);
             break;
         }
     });
@@ -41,6 +56,7 @@ $(document).ready(function(){
         alpha:true,
         backgroundColor: "#00000000",
         success: function (widget) {
+            console.log('success');
             widget.state.setAnimation(0, "right-blink", false);
             addHandlers(widget);
         }

@@ -11,23 +11,42 @@
     text-align:center;
 }
 #spine-widget {
-    height:300px;
+    height:400px;
+    margin-top:50px;
+    padding:50px;
 }
 .blur {
     filter:blur(4px);
+}
+.btn {
+    background:darkgreen;
+    color:#fff;
+    cursor:pointer;
+    padding:10px 20px;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:1rem;
 }
 </style>
 <body>
 
 <div class="container">
-<div id="spine-widget">
-</div>
-<button data-action="right-blink" class="btn">Blink</button>
-<button data-action="scratch" class="btn">Scratch</button>
-<button data-action="wingsout" class="btn">Wings Out</button>
-<button data-action="wingsin" class="btn">Wings In</button>
-<button data-action="flapping" class="btn">Flapping</button>
-<button data-action="speaking" class="btn">Speaking</button>
+    <div id="spine-widget">
+    </div>
+    <div class="row">
+        <button data-action="right-blink" class="btn">Blink</button>
+        <button data-action="scratch" class="btn">Scratch</button>
+        <button data-action="wingsout" class="btn">Wings Out</button>
+        <button data-action="wingsin" class="btn">Wings In</button>
+        <button data-action="flapping" class="btn">Flapping</button>
+        <button data-action="speaking" class="btn">Speaking</button>
+    </div>
+    <div class="row">
+        <button data-action="walkright" class="btn">Side Walk</button>
+        <button data-action="squawk" class="btn">Squawk</button>
+        <button data-action="askance" class="btn">Look Askance</button>
+    </div>
+
 </div>
 
 <script

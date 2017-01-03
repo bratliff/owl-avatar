@@ -1,180 +1,271 @@
 
 owly.png
-size: 1024,512
+size: 2159,660
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-blink_set/1_left
+Side Set/reduced/side_1a
   rotate: false
-  xy: 659, 147
+  xy: 1983, 284
+  size: 124, 98
+  orig: 124, 98
+  offset: 0, 0
+  index: -1
+Side Set/reduced/side_1b
+  rotate: false
+  xy: 767, 149
+  size: 182, 108
+  orig: 182, 108
+  offset: 0, 0
+  index: -1
+Side Set/reduced/side_2a
+  rotate: true
+  xy: 1531, 173
+  size: 84, 97
+  orig: 84, 97
+  offset: 0, 0
+  index: -1
+Side Set/reduced/side_2b
+  rotate: true
+  xy: 1296, 10
+  size: 154, 125
+  orig: 154, 125
+  offset: 0, 0
+  index: -1
+Side Set/reduced/side_3a
+  rotate: true
+  xy: 1434, 168
+  size: 89, 95
+  orig: 89, 95
+  offset: 0, 0
+  index: -1
+Side Set/reduced/side_4a
+  rotate: false
+  xy: 951, 159
+  size: 166, 98
+  orig: 166, 98
+  offset: 0, 0
+  index: -1
+Side Set/reduced/side_4b
+  rotate: false
+  xy: 1851, 276
+  size: 130, 106
+  orig: 130, 106
+  offset: 0, 0
+  index: -1
+Side Set/reduced/sitting
+  rotate: false
+  xy: 1, 248
+  size: 729, 411
+  orig: 729, 411
+  offset: 0, 0
+  index: -1
+blink_set/1_left
+  rotate: true
+  xy: 2000, 81
   size: 124, 127
   orig: 124, 127
   offset: 0, 0
   index: -1
 blink_set/1_right
   rotate: false
-  xy: 532, 147
+  xy: 1423, 37
   size: 125, 127
   orig: 125, 127
   offset: 0, 0
   index: -1
 blink_set/reduced/2_left
   rotate: false
-  xy: 743, 78
+  xy: 1907, 207
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 blink_set/reduced/2_right
-  rotate: true
-  xy: 673, 79
+  rotate: false
+  xy: 1771, 189
   size: 66, 68
   orig: 66, 68
   offset: 0, 0
   index: -1
 blink_set/reduced/3_left
   rotate: false
-  xy: 941, 199
+  xy: 1839, 189
   size: 66, 68
   orig: 66, 68
   offset: 0, 0
   index: -1
 blink_set/reduced/3_right
   rotate: false
-  xy: 811, 107
+  xy: 1975, 207
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 blink_set/reduced/4_left
   rotate: false
-  xy: 879, 107
+  xy: 2000, 12
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 blink_set/reduced/4_right
   rotate: false
-  xy: 947, 130
+  xy: 2068, 12
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 body_set/1_tail
   rotate: false
-  xy: 300, 257
+  xy: 656, 4
   size: 210, 115
   orig: 210, 115
   offset: 0, 0
   index: -1
 body_set/2_lowwing
   rotate: false
-  xy: 566, 419
+  xy: 1, 4
   size: 277, 89
   orig: 277, 89
   offset: 0, 0
   index: -1
-body_set/reduced/beak
+body_set/body_right
   rotate: true
-  xy: 314, 4
+  xy: 1155, 259
+  size: 400, 346
+  orig: 400, 346
+  offset: 0, 0
+  index: -1
+body_set/empty
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+body_set/head_right
+  rotate: true
+  xy: 1503, 259
+  size: 400, 346
+  orig: 400, 346
+  offset: 0, 0
+  index: -1
+body_set/reduced/beak
+  rotate: false
+  xy: 2109, 300
   size: 49, 82
   orig: 49, 82
   offset: 0, 0
   index: -1
 body_set/reduced/beak-fluff
-  rotate: true
-  xy: 250, 296
+  rotate: false
+  xy: 2043, 244
   size: 59, 38
   orig: 59, 38
   offset: 0, 0
   index: -1
 body_set/reduced/body
   rotate: false
-  xy: 2, 2
+  xy: 1798, 4
   size: 200, 183
   orig: 200, 183
   offset: 0, 0
   index: -1
 body_set/reduced/brows
   rotate: false
-  xy: 785, 176
+  xy: 1278, 166
   size: 154, 91
   orig: 154, 91
   offset: 0, 0
   index: -1
 body_set/reduced/btm-beak
   rotate: false
-  xy: 512, 290
+  xy: 2109, 216
   size: 49, 82
   orig: 49, 82
   offset: 0, 0
   index: -1
 body_set/reduced/crown
-  rotate: true
-  xy: 314, 55
+  rotate: false
+  xy: 565, 121
   size: 200, 125
   orig: 200, 125
   offset: 0, 0
   index: -1
 body_set/reduced/head
   rotate: false
-  xy: 792, 269
+  xy: 1094, 17
   size: 200, 140
   orig: 200, 140
   offset: 0, 0
   index: -1
 body_set/reduced/lt-wing
   rotate: true
-  xy: 532, 90
+  xy: 1630, 202
   size: 55, 139
   orig: 55, 139
   offset: 0, 0
   index: -1
 body_set/reduced/rt-wing
   rotate: true
-  xy: 845, 411
+  xy: 1119, 160
   size: 97, 157
   orig: 97, 157
   offset: 0, 0
   index: -1
-body_set/wing set/reduced/left-wing-cocked
+body_set/sideeye
   rotate: false
-  xy: 441, 66
+  xy: 1851, 384
+  size: 300, 275
+  orig: 300, 275
+  offset: 0, 0
+  index: -1
+body_set/squawk
+  rotate: true
+  xy: 732, 259
+  size: 400, 421
+  orig: 400, 421
+  offset: 0, 0
+  index: -1
+body_set/wing set/reduced/left-wing-cocked
+  rotate: true
+  xy: 280, 4
   size: 89, 189
   orig: 89, 189
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/left-wing-flared
   rotate: false
-  xy: 2, 187
+  xy: 1550, 3
   size: 246, 168
   orig: 246, 168
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/left-wing-spread
   rotate: false
-  xy: 300, 374
+  xy: 299, 112
   size: 264, 134
   orig: 264, 134
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/right-wing-cocked
-  rotate: false
-  xy: 204, 2
+  rotate: true
+  xy: 471, 2
   size: 108, 183
   orig: 108, 183
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/right-wing-flared
   rotate: false
-  xy: 566, 276
+  xy: 868, 6
   size: 224, 141
   orig: 224, 141
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/rign-wing-spread
   rotate: false
-  xy: 2, 357
+  xy: 1, 95
   size: 296, 151
   orig: 296, 151
   offset: 0, 0
