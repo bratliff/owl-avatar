@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "vfyHFBuW2XyJPgPCWUU7mBhk1H4", "spine": "3.5.46", "width": 1787.37, "height": 3544.51 },
+"skeleton": { "hash": "axvw1haiRGwyanZtvdfLtSMqdAA", "spine": "3.5.46", "width": 1787.37, "height": 3544.51 },
 "bones": [
 	{ "name": "root", "x": 360.58, "y": 100.07, "scaleX": 84.655, "scaleY": 84.655 },
 	{ "name": "head", "parent": "root", "rotation": -9.04, "x": -4.3, "y": 21.02 },
@@ -174,7 +174,11 @@
 			},
 			"leftwing": {
 				"attachment": [
-					{ "time": 0.1667, "name": "body_set/wing set/reduced/left-wing-cocked" },
+					{ "time": 0.2333, "name": "body_set/reduced/lt-wing" },
+					{ "time": 0.2667, "name": "body_set/reduced/lt-wing" },
+					{ "time": 0.3333, "name": "body_set/wing set/reduced/left-wing-cocked" },
+					{ "time": 0.3667, "name": "body_set/wing set/reduced/left-wing-cocked" },
+					{ "time": 1.3667, "name": "body_set/reduced/lt-wing" },
 					{ "time": 1.8, "name": "body_set/reduced/lt-wing" }
 				]
 			},
@@ -184,6 +188,16 @@
 					{ "time": 1.6667, "name": "blink_set/reduced/3_right" },
 					{ "time": 1.7333, "name": "blink_set/reduced/2_right" },
 					{ "time": 1.8, "name": "blink_set/1_right" }
+				]
+			},
+			"rightwing": {
+				"attachment": [
+					{ "time": 0.3, "name": "body_set/wing set/reduced/right-wing-cocked" },
+					{ "time": 0.3333, "name": "body_set/wing set/reduced/right-wing-flared" },
+					{ "time": 0.3667, "name": "body_set/wing set/reduced/rign-wing-spread" },
+					{ "time": 1.3, "name": "body_set/wing set/reduced/right-wing-flared" },
+					{ "time": 1.3333, "name": "body_set/wing set/reduced/right-wing-cocked" },
+					{ "time": 1.3667, "name": "body_set/reduced/rt-wing" }
 				]
 			}
 		},
