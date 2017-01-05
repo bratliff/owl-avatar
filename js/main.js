@@ -1,12 +1,30 @@
+var hoot = new Howl({
+    src: ['audio/silly/matt_owl2.mp3'],
+    sprite: {
+        one: [300, 1300]
+    }
+});
+
+var silly = new Howl({
+    src: ['audio/silly/silly_read1.m4a']
+});
+
+
+var straight = new Howl({
+    src: ['audio/straight/direction_instruction_v1.mp3']
+})
+
+
 function addHandlers(widget) {
     var active = false,
         flapping = false,
         speaking = false,
         walking = false,
+        regular = false,
         owl = document.querySelector('#spine-widget');
 
     $('.btn').click(function(){
-        
+
         switch($(this).data('action')) {
             case 'right-blink':
                 widget.state.setAnimation(0, "right-blink", false);
@@ -27,13 +45,33 @@ function addHandlers(widget) {
                 flapping ? owl.classList.add('fly') : owl.classList.remove('fly');
 
             break;
-            case 'speaking':
+            case 'silly':
+                var _this = this;
                 speaking = !speaking;
                 speaking ? widget.state.setAnimation(0, "talking", true) : widget.state.setAnimation(0, "resting", true);
-                speaking ? $(this).html("Stop Speaking") : $(this).html("Speak");
+                speaking ? $(this).html("Stop Speaking") : $(this).html("Speaking (Silly)");
+                speaking ? silly.play() : silly.stop();
+                silly.on('end', function(){
+                   widget.state.setAnimation(0, "resting", true);
+                   speaking = !speaking;
+                   $(_this).html("Speaking (Silly)");
+                });
+            break;
+            case 'regular':
+                var _this = this;
+                regular = !regular;
+                regular ? widget.state.setAnimation(0, "talking", true) : widget.state.setAnimation(0, "resting", true);
+                regular ? $(this).html("Stop Speaking") : $(this).html("Speaking (Regular)");
+                regular ? straight.play() : straight.stop();
+                straight.on('end', function(){
+                   widget.state.setAnimation(0, "resting", true);
+                   regular = !regular;
+                   $(_this).html("Speaking (Regular)");
+                });
             break;
             case 'squawk':
                 widget.state.setAnimation(0, "squawk", false);
+                hoot.play('one');
             break;
             case 'walkright':
                 walking = !walking;
