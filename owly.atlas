@@ -1,271 +1,306 @@
 
 owly.png
-size: 2159,660
+size: 1347,1114
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Side Set/reduced/side_1a
   rotate: false
-  xy: 1983, 284
+  xy: 1102, 281
   size: 124, 98
   orig: 124, 98
   offset: 0, 0
   index: -1
 Side Set/reduced/side_1b
-  rotate: false
-  xy: 767, 149
+  rotate: true
+  xy: 1063, 583
   size: 182, 108
   orig: 182, 108
   offset: 0, 0
   index: -1
 Side Set/reduced/side_2a
   rotate: true
-  xy: 1531, 173
+  xy: 1229, 338
   size: 84, 97
   orig: 84, 97
   offset: 0, 0
   index: -1
 Side Set/reduced/side_2b
-  rotate: true
-  xy: 1296, 10
+  rotate: false
+  xy: 692, 5
   size: 154, 125
   orig: 154, 125
   offset: 0, 0
   index: -1
 Side Set/reduced/side_3a
   rotate: true
-  xy: 1434, 168
+  xy: 1107, 2
   size: 89, 95
   orig: 89, 95
   offset: 0, 0
   index: -1
+Side Set/reduced/side_3b
+  rotate: true
+  xy: 848, 3
+  size: 139, 136
+  orig: 139, 136
+  offset: 0, 0
+  index: -1
 Side Set/reduced/side_4a
-  rotate: false
-  xy: 951, 159
+  rotate: true
+  xy: 687, 132
   size: 166, 98
   orig: 166, 98
   offset: 0, 0
   index: -1
 Side Set/reduced/side_4b
-  rotate: false
-  xy: 1851, 276
+  rotate: true
+  xy: 986, 89
   size: 130, 106
   orig: 130, 106
   offset: 0, 0
   index: -1
+Side Set/reduced/side_5a
+  rotate: true
+  xy: 979, 221
+  size: 133, 108
+  orig: 133, 108
+  offset: 0, 0
+  index: -1
+Side Set/reduced/side_5b
+  rotate: true
+  xy: 1228, 240
+  size: 96, 111
+  orig: 96, 111
+  offset: 0, 0
+  index: -1
+Side Set/reduced/side_6a
+  rotate: false
+  xy: 1094, 163
+  size: 119, 116
+  orig: 119, 116
+  offset: 0, 0
+  index: -1
+Side Set/reduced/side_6b
+  rotate: true
+  xy: 986, 1
+  size: 86, 119
+  orig: 86, 119
+  offset: 0, 0
+  index: -1
 Side Set/reduced/sitting
   rotate: false
-  xy: 1, 248
+  xy: 1, 702
   size: 729, 411
   orig: 729, 411
   offset: 0, 0
   index: -1
 blink_set/1_left
-  rotate: true
-  xy: 2000, 81
+  rotate: false
+  xy: 566, 1
   size: 124, 127
   orig: 124, 127
   offset: 0, 0
   index: -1
 blink_set/1_right
   rotate: false
-  xy: 1423, 37
+  xy: 439, 1
   size: 125, 127
   orig: 125, 127
   offset: 0, 0
   index: -1
 blink_set/reduced/2_left
   rotate: false
-  xy: 1907, 207
+  xy: 1215, 171
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 blink_set/reduced/2_right
   rotate: false
-  xy: 1771, 189
+  xy: 1094, 93
   size: 66, 68
   orig: 66, 68
   offset: 0, 0
   index: -1
 blink_set/reduced/3_left
   rotate: false
-  xy: 1839, 189
+  xy: 1162, 93
   size: 66, 68
   orig: 66, 68
   offset: 0, 0
   index: -1
 blink_set/reduced/3_right
   rotate: false
-  xy: 1975, 207
+  xy: 1230, 102
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 blink_set/reduced/4_left
   rotate: false
-  xy: 2000, 12
+  xy: 1204, 24
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 blink_set/reduced/4_right
   rotate: false
-  xy: 2068, 12
+  xy: 1272, 33
   size: 66, 67
   orig: 66, 67
   offset: 0, 0
   index: -1
 body_set/1_tail
-  rotate: false
-  xy: 656, 4
+  rotate: true
+  xy: 985, 370
   size: 210, 115
   orig: 210, 115
   offset: 0, 0
   index: -1
 body_set/2_lowwing
-  rotate: false
-  xy: 1, 4
+  rotate: true
+  xy: 751, 303
   size: 277, 89
   orig: 277, 89
   offset: 0, 0
   index: -1
 body_set/body_right
-  rotate: true
-  xy: 1155, 259
+  rotate: false
+  xy: 732, 767
   size: 400, 346
   orig: 400, 346
   offset: 0, 0
   index: -1
 body_set/empty
   rotate: false
-  xy: 1, 1
+  xy: 751, 300
   size: 1, 1
   orig: 1, 1
   offset: 0, 0
   index: -1
 body_set/head_right
   rotate: true
-  xy: 1503, 259
+  xy: 403, 300
   size: 400, 346
   orig: 400, 346
   offset: 0, 0
   index: -1
 body_set/reduced/beak
-  rotate: false
-  xy: 2109, 300
+  rotate: true
+  xy: 886, 149
   size: 49, 82
   orig: 49, 82
   offset: 0, 0
   index: -1
 body_set/reduced/beak-fluff
   rotate: false
-  xy: 2043, 244
+  xy: 1287, 934
   size: 59, 38
   orig: 59, 38
   offset: 0, 0
   index: -1
 body_set/reduced/body
   rotate: false
-  xy: 1798, 4
+  xy: 751, 582
   size: 200, 183
   orig: 200, 183
   offset: 0, 0
   index: -1
 body_set/reduced/brows
-  rotate: false
-  xy: 1278, 166
+  rotate: true
+  xy: 886, 200
   size: 154, 91
   orig: 154, 91
   offset: 0, 0
   index: -1
 body_set/reduced/btm-beak
   rotate: false
-  xy: 2109, 216
+  xy: 1287, 850
   size: 49, 82
   orig: 49, 82
   offset: 0, 0
   index: -1
 body_set/reduced/crown
-  rotate: false
-  xy: 565, 121
+  rotate: true
+  xy: 1102, 381
   size: 200, 125
   orig: 200, 125
   offset: 0, 0
   index: -1
 body_set/reduced/head
-  rotate: false
-  xy: 1094, 17
+  rotate: true
+  xy: 1173, 615
   size: 200, 140
   orig: 200, 140
   offset: 0, 0
   index: -1
 body_set/reduced/lt-wing
-  rotate: true
-  xy: 1630, 202
+  rotate: false
+  xy: 1287, 974
   size: 55, 139
   orig: 55, 139
   offset: 0, 0
   index: -1
 body_set/reduced/rt-wing
-  rotate: true
-  xy: 1119, 160
+  rotate: false
+  xy: 787, 144
   size: 97, 157
   orig: 97, 157
   offset: 0, 0
   index: -1
 body_set/sideeye
   rotate: false
-  xy: 1851, 384
+  xy: 1, 2
   size: 300, 275
   orig: 300, 275
   offset: 0, 0
   index: -1
 body_set/squawk
-  rotate: true
-  xy: 732, 259
+  rotate: false
+  xy: 1, 279
   size: 400, 421
   orig: 400, 421
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/left-wing-cocked
-  rotate: true
-  xy: 280, 4
+  rotate: false
+  xy: 1229, 424
   size: 89, 189
   orig: 89, 189
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/left-wing-flared
   rotate: false
-  xy: 1550, 3
+  xy: 439, 130
   size: 246, 168
   orig: 246, 168
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/left-wing-spread
-  rotate: false
-  xy: 299, 112
+  rotate: true
+  xy: 303, 13
   size: 264, 134
   orig: 264, 134
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/right-wing-cocked
-  rotate: true
-  xy: 471, 2
+  rotate: false
+  xy: 953, 582
   size: 108, 183
   orig: 108, 183
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/right-wing-flared
-  rotate: false
-  xy: 868, 6
+  rotate: true
+  xy: 842, 356
   size: 224, 141
   orig: 224, 141
   offset: 0, 0
   index: -1
 body_set/wing set/reduced/rign-wing-spread
-  rotate: false
-  xy: 1, 95
+  rotate: true
+  xy: 1134, 817
   size: 296, 151
   orig: 296, 151
   offset: 0, 0

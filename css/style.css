@@ -1,0 +1,28 @@
+@keyframes flyingowl {
+    0% {top: 0%; }
+    20% {top: 0%; left:50%; transform : rotate(-80deg)}
+    40% {top: 0%; left:5%;}
+    50% {top: 0%; transform : rotate(120deg)}
+    70% {left: 65%}
+    90% {left: 30%; transform : rotate(-90deg) }
+    100% {transform : rotate(0deg) }
+  }
+
+#spine-widget {
+    position:absolute;
+    left:30%;
+    /*border:1px solid #000;*/
+    width:460px;
+    height:300px;
+    z-index:2;
+}
+
+ #spine-widget.fly {
+     animation: flyingowl 4s forwards;
+ }
+
+ .buttons {
+     position: absolute;
+     margin-top:600px;
+     left:20%;
+ }

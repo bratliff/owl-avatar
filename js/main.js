@@ -2,10 +2,11 @@ function addHandlers(widget) {
     var active = false,
         flapping = false,
         speaking = false,
-        walking = false;
+        walking = false,
+        owl = document.querySelector('#spine-widget');
 
     $('.btn').click(function(){
-
+        
         switch($(this).data('action')) {
             case 'right-blink':
                 widget.state.setAnimation(0, "right-blink", false);
@@ -23,6 +24,8 @@ function addHandlers(widget) {
                 flapping = !flapping;
                 flapping ? widget.state.setAnimation(0, "flapping", true) : widget.state.setAnimation(0, "resting", true);
                 flapping ? $(this).html("Stop Flapping") : $(this).html("Flapping");
+                flapping ? owl.classList.add('fly') : owl.classList.remove('fly');
+
             break;
             case 'speaking':
                 speaking = !speaking;
@@ -56,7 +59,6 @@ $(document).ready(function(){
         alpha:true,
         backgroundColor: "#00000000",
         success: function (widget) {
-            console.log('success');
             widget.state.setAnimation(0, "right-blink", false);
             addHandlers(widget);
         }
